@@ -8,7 +8,7 @@ layout: nil
  <link href="http://northscale.github.com/atom.xml" rel="self"/>
  <link href="http://northscale.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://northscale.githubr.com/</id>
+ <id>http://northscale.github.com/</id>
  <author>
    <name>Steve Yen</name>
    <email>steve.yen@northscale.com</email>
