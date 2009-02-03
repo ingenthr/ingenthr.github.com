@@ -3,6 +3,12 @@ layout: default
 title: NorthScale
 ---
 
+High performance, web scale-out consulting, support and training.
+
+Memcached.  Beanstalkd.  Web Infrastructure.
+
+Scale-out done right.
+
 <div id="home">
   <h1>Blog</h1>
   <ul class="posts">
