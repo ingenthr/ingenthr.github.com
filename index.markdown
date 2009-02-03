@@ -7,7 +7,9 @@ High performance, web scale-out consulting, support and training.
 
 Memcached.  Beanstalkd.  Web Infrastructure.
 
-Scale-out done right.
+Proven, battle-tested scalability.
+
+Call us at: 1.888.399.5509
 
 <div id="home">
   <h1>Blog</h1>
