@@ -4,7 +4,7 @@ title: NorthScale
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Blog</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date: "%Y/%m/%d" }}</span> &raquo;
