@@ -18,17 +18,21 @@ cropped above.
 
 - **Dustin Sallings** - co-founder, Chief Architect
 
-Dustin's a core committer for memcached, and spins out asynchronous,
-scale-out solutions like breathing.  Dustin is creator of
-Spymemcached, the high-performance Java memcached client.  Dustin
-helped write the Beyond.com ecommerce engine and helped 2Wire's device
-networks to scale-out to over a million networked devices.
+Dustin's a core committer for memcached, and spins out scalable,
+high-throughput, low-latency solutions like breathing.  Dustin is also
+the creator of net.spy.memcached, the high-performance Java memcached
+client.  Previously, Dustin helped create the scaling infrastructure
+at Caring.com, helped rewrite the Beyond.com ecommerce engine and
+helped scale 2Wire's device network infrastructure to over a million
+devices.
 
 - **Steve Yen** - co-founder, CEO
 
-Steve was co-founder of the world's first application servers at Kiva
-Software (acquired by Netscape), and was co-founder of
-e-commerce/order-processing SaaS provider, Escalate Software (acquired
-by GE Retail Systems).  Steve likes lambda's.
+Steve was co-founder of e-commerce/order-processing SaaS provider,
+Escalate (acquired by GE Retail Systems / Ecometry).  Steve was also
+co-founder of the world's first application server company, Kiva
+Software (acquired by Netscape), which included deployments by
+E*Trade, Bank of America, and Sabre.  Steve likes lambda's, server
+software infrastructure and building companies.
 
 
