@@ -3,22 +3,16 @@ layout: default
 title: NorthScale
 ---
 
-High performance, web scale-out consulting, support and training.
+Memcached Training, Services and Support by NorthScale.  
 
-Memcached.  Beanstalkd.  Web Infrastructure.
+<p class="gray">
+Memcached is the popular, high performance, open source distributed key-value caching server, deployed by the largest sites on the internet.  Memcached enables your website to handle incredible request loads and spikes, reduce latency to make your customers happy, and save money on RDBMS costs.
+</p>
 
-Proven, battle-tested solutions.
+<p>
+<span class="northscale">NorthScale</span>
+<span class="call_to_action">can help you get the most out of Memcached.</span>
+</p>
 
-Call us at: 1.888.399.5509
+Call us at: 1.888.399.5509, or contact@northscale.com
 
-<div id="home">
-  <h1>Blog</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date: "%Y/%m/%d" }}</span> &raquo;
-          <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-  

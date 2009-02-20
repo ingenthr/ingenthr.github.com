@@ -197,3 +197,15 @@ ul.posts span {
   margin-bottom: 1em;
 }
 
+.northscale {
+  color: #a00;
+  font-weight: bold;
+}
+
+.gray {
+  color: #888;
+}
+
+.call_to_action {
+  color: #a33;
+}
