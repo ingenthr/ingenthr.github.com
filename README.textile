@@ -10,3 +10,15 @@ The following directories and their contents are Copyright NorthScale, Inc. You 
 * images/
 
 All other directories and files are MIT Licensed, based on the original Jekyll work and blog by Tom Preston-Warner. Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://github.com/mojombo/jekyll would be appreciated, but is not required.
+
+h1. Install/Run
+
+You'll need...
+
+* ruby
+* gems
+* jekyll
+** for example: sudo gem install mojombo-jekyll -s http://gems.github.com/
+* git
+** git clone git@github.com:northscale/northscale.github.com.git
+
