@@ -7,50 +7,14 @@
 
         <title>NorthScale Labs</title>
 
-        <LINK REL=StyleSheet HREF="css/default.css" TYPE="text/css" MEDIA=screen>
-
-        <style type="text/css">
-            body {
-                margin-top: 1.0em;
-                font-family: "helvetica";
-                font-size: medium;
-                color: #000000;
-                background-color: white;
-            }
-            #header {
-                position: absolute; top: 0; left: 0;
-                padding: 10px;
-                width: 100%;
-                height: 70px;
-                background-color: #ebe6e5;
-            }
-            #container {
-                position: relative; top: 60px;
-                margin: 0 auto;
-                width: 700px;
-            }
-            h1 { font-size: 2.0em; }
-            h1 .small { font-size: 0.4em; }
-            h1 a { text-decoration: none }
-            h2 { font-size: 1.5em; }
-            h3 { font-style: italic; }
-            a { text-decoration:none;
-                color: black; }
-            a:visited { color:black; }
-            a:hover { text-decoration:underline; }
-            .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-            .download { float: right; }
-            pre { background: #000; color: #fff; padding: 15px;}
-            hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-            .footer { text-align:center; padding-top:30px; font-style: italic; }
-        </style>
+        <link id="master_css" rel="stylesheet" type="text/css" href="/css/default.css"/>
 
     </head>
 
     <body>
 
         <div id="header">
-            <img src="images/ns_logo_labs.png" alt="NorthScale Labs" style="margin-top:10px;">
+            <img src="/images/ns_logo_labs.png" alt="NorthScale Labs" style="margin-top:10px;">
         </div>
 
 
@@ -69,98 +33,36 @@
             </p>
 
             <p>NorthScale has released
-            <a href="#moxi">moxi</a> (a memcached proxy) and developers from
-            NorthScale have contributed to
+            <a href="moxi">moxi</a> (a memcached proxy) and libstrophe.  
+            Developers from NorthScale have contributed to
             <a href="http://code.google.com/p/memcached">memcached</a>,
             <a href="http://code.google.com/p/spymemcached/">spymemcached</a>,
-            <a href="http://xph.us/software/beanstalkd/">beanstalkd</a>, git and
+            <a href="http://xph.us/software/beanstalkd/">beanstalkd</a>, 
+            <a href="http://code.stanziq.com/strophe/">strophe</a>, 
+            <a href="http://git-scm.com">git</a> and
             others.
             </p>
 
 
-            <a name="moxi"><h2>moxi</h2></a>
+            <a href="moxi"><h2>moxi</h2></a>
 
-            <p><a href="moxi">Moxi</a> is a memcached proxy with several features that can help
+            <p><a href="moxi">moxi</a> is a memcached proxy with several features that can help
             keep the memcached contract whole in complicated environments.  It
             brings several optimizations to memcached deployments without
             requiring any changes to the application software using memcached.</p>
-            <h3>Dependencies</h3>
-            <p><ul>
-                <li><a href="http://tangent.org">libmemcached</a> (specific version, statically linked and
-                bundled)</li>
-                <li><a href="http://monkey.org/~provos/libevent/">libevent</a>,
-                a portable event notification layer for socket/file descriptor
-                events on UNIX like systems
-                <li><a href="http://check.sourceforge.net">check</a>, a C unit test 
-                framework (needed only for testing, we're fans of test driven
-                design)</li>
-            </ul>
-            </p>
-            <p>For more information on depedencies, see the project wiki.
-            Documentation for building is a bit rough at the moment, but will
-            be cleaned up soon.
-            <h3>Installation</h3>
-            <p>Packages will shortly be available for the most common platforms,
-            and that is the preferred method of installation.  Otherwise, the
-            source is automake/autconf based and should build on most UNIX like
-            systems.</p>
-            
-            <h3>License</h3>
-            <p>BSD</p>
+
+            <a href="libconflate"><h2>libconflate</h2></a>
+
+            <p><a href="libconflate">libconflate</a> is a generalized XMPP agent designed
+            to embed in a C applciation to enable remote XMPP configuration and
+            control of an appliction.</p>
+
 
             <h3>Contact</h3>
-            <p> feedback@northscale.com
-            <br/></p>
-            <p>Alternatively, you may post comments below using disqus.</p>
+            <p><a href="mailto:feeedback@northscale.com">feedback@northscale.com</a></p>
 
-
-            <h3>Download</h3>
-            <!-- p>
-                You can download this project in either
-                <a href="http://github.com/northscale/moxi/zipball/master">zip</a> or
-                <a href="http://github.com/northscale/moxi/tarball/master">tar</a> formats.
-            </p -->
-            <p>You can clone the project with <a href="http://git-scm.com">git</a>
-                by running:
-                <pre>$ git clone git://github.com/northscale/moxi</pre>
-            </p>
-
-            <p><div id="disqus_thread"></div><script type="text/javascript"
-                                                         src="http://disqus.com/forums/labsnorthscale/embed.js"></script>
-                <noscript><a href="http://labsnorthscale.disqus.com/?url=ref">View the
-                discussion thread.</a></noscript><a href="http://disqus.com"
-                                                    class="dsq-brlink">comments powered by
-            <span class="logo-disqus">Disqus</span></a></p>
-
-            <div class="footer">
-                get the source code on GitHub : <a href="http://github.com/northscale/moxi">northscale/moxi</a>
-            </div>
 
         </div>
-
-        <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <script type="text/javascript">
-            try {
-                var pageTracker = _gat._getTracker("UA-0000000-1");
-                pageTracker._trackPageview();
-            } catch(err) {}</script>
-        <script type="text/javascript">
-            //<![CDATA[
-            (function() {
-                var links = document.getElementsByTagName('a');
-                var query = '?';
-                for(var i = 0; i < links.length; i++) {
-                    if(links[i].href.indexOf('#disqus_thread') >= 0) {
-                        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-                    }
-                }
-                document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/labsnorthscale/get_num_replies.js' + query + '"></' + 'script>');
-            })();
-            //]]>
-        </script>
 
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
