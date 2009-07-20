@@ -16,6 +16,36 @@
 
     <div id="container">
 
+      <p>NorthScale has produced a set of Amazon EC2 Machine Images (AMIs)
+      for all to use.</p>
+
+      <table>
+       <th><td>AMI ID</td><td>Manifest</td><td>Description</td></th>
+       <tr><td>US: ami-1fc52476<br/>EU:</td><td>northscale/community-memcached-1.4.0-x86_64.manifest.xml</td><td>memcached 1.4.0 community release on x86_64 for m1.large, m1.xlarge and c1.xlarge instances</td></tr>
+       <tr><td>US: ami-1fc52476<br/>EU:</td><td>northscale/community-memcached-1.4.0-x86_64.manifest.xml</td><td>memcached 1.4.0 community release on x86_64 for m1.large, m1.xlarge and c1.xlarge instances</td></tr>
+      </table>
+
+      <p>There is no additional cost over that of running your own 
+      AMI.  We would appreciate your <a 
+      href="mailto:feedback@northscale.com>feedback</a> on 
+      the utility you receive from these AMIs.  We have intentionally
+      kept it simple, but if there is something you would like or need
+      to be able to use these, please <a 
+      href="mailto:feedback@northscale.com">let us know.</p>
+
+      <p>To create these, we downloaded the latest stable release of 
+      memcached from <a href="http://memcached.org">memcached.org</a>, 
+      built and tested memcached, and then integrated it's startup into
+      the image.  When the AMI boots, it will automatically use nearly all
+      of it's memory for memcached.</p>
+
+      <p>In most cases, there is no reason to log into the image.  Just 
+      launch it and point your client to port 11211 (either TCP or UDP).
+      do be cautious about your 
+      would like to do so it does correc
+   
+   
+
       <p><a href="mailto:feeedback@northscale.com">feedback@northscale.com</a></p>
 
     </div>
