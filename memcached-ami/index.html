@@ -24,7 +24,7 @@
 
     <div id="container">
 
-      <h1>AMI's</h1>
+      <h1>memcached AMIs for EC2</h1>
 
       <p>NorthScale has produced a set of Amazon EC2 Machine Images (AMI's)
       for all to use.</p>
@@ -65,7 +65,8 @@
 
       <p>In most cases, there is no reason to log into the image.  Just
       launch it and point your client to port 11211 (either TCP or UDP).
-      do be cautious about your security groups, as memcached does not
+      Do be cautious about your security group settings on EC2 for the
+      memcached port, as memcached does not
       have an authentication mechanism.</p>
 
       <p>See <a href="http://dustin.github.com/2009/07/16/memcached-1.4.html">
