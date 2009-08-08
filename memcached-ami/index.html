@@ -35,8 +35,20 @@
         <th>Description</th>
        </tr>
        <tr>
+        <td>US-East:&nbsp;ami-bf4cadd6<br/>EU-West:&nbsp;ami-6e98b01a</td>
+        <td>northscale/community-memcached-1.4.0-with-tools-i386.manifest.xml</td>
+        <td>memcached 1.4.0 community release with extra tools on i386 for 
+            m1.small and m1.medium instances</td>
+       </tr>
+       <tr>
+        <td>US-East:&nbsp;ami-bd4cadd4<br/>EU-West:&nbsp;ami-6098b014</td>
+        <td>northscale/community-memcached-1.4.0-with-tools-x86_64.manifest.xml</td>
+        <td>memcached 1.4.0 community release with extra tools on x86_64 for m1.large,
+            m1.xlarge and c1.xlarge instances</td>
+       </tr>
+       <tr>
         <td>US-East:&nbsp;ami-39c52450<br/>EU-West:&nbsp;ami-818ba3f5</td>
-        <td>northscale/community-memcached-1.4.0-x86_64.manifest.xml</td>
+        <td>northscale/community-memcached-1.4.0-i386.manifest.xml</td>
         <td>memcached 1.4.0 community release on i386 for m1.small
             and m1.medium instances</td>
        </tr>
@@ -60,16 +72,24 @@
       memcached from <a href="http://memcached.org">memcached.org</a>,
       built and tested memcached, and then integrated its startup into
       the image.  When the AMI boots, it will automatically use nearly all
-      of its memory for memcached.</p>
+      of its memory for memcached.  The "with-tools" instances have some
+      browser based tools which allow you observe what the memcached 
+      instance is doing.</p>
 
       <p>In most cases, there is no reason to log into the image.  Just
       launch it and point your client to port 11211 (either TCP or UDP).
+      If you want to see the extra tools, make sure your security group
+      allows you to get to port 80, and point your browser at the public
+      DNS name for the instance.
       Do be cautious about your security group settings on EC2 for the
       memcached port, as memcached does not
       have an authentication mechanism.</p>
 
-      <p>See <a href="http://dustin.github.com/2009/07/16/memcached-1.4.html">
-         Dustin Salling's memcached 1.4.0 post</a> for more info.</p>
+      <p>See <a href="http://blog.northscale.com/northscale-blog/2009/08/mrroboto-the-ami-story.html">Matt's post for more 
+         information</a> on the "with tools" instances and 
+         <a href="http://dustin.github.com/2009/07/16/memcached-1.4.html">
+         Dustin Salling's memcached 1.4.0 post</a> for more information on
+         the original AMIs.</p>
 
       <p>
        <a href="mailto:feeedback@northscale.com">feedback@northscale.com</a>
