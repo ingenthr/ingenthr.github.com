@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>memcached 1.4.1 community Virtual Appliance - NorthScale Labs</title>
+    <link id="master_css" rel="stylesheet" type="text/css" href="/css/default.css"/>
+    <style type="text/css">
+      .ami_table td {
+        font-size: 10pt;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <div id="header">
+      <a href="http://labs.northscale.com">
+        <img src="/images/ns_logo_labs.png" alt="NorthScale Labs" style="margin-top:10px;"/>
+      </a>
+    </div>
+
+    <div id="container">
+
+      <h1>memcached Virtual Appliance</h1>
+
+      <p>The virtual appliance is just a simple memcached server with
+      some additional tools accessible through a browser.</p>
+
+      <p>The username to log in is "memcached" and the default password
+      is "vappmemc".  The root password is also "vappmemc" and there is
+      a shell script in root's home directory to change the password
+      to access the tools through the web interface.</p>
+
+      <h2>Use with VMWare</h2>
+      <p>Not all VMWare tools can directly import Open Virtualization 
+      Format (OVF) based virtual appliances.  To address this, VMWare has
+      made <a href="http://www.vmware.com/appliances/learn/ovf.html">
+      VMWare OVF Tool</a> available for download.  This image has been
+      tested to import into VMWare after being converted with VMWare's
+      OVF tool.  The image has been prepared with a SCSI controller
+      to be compatible with servers.  Some versions of VMWare will 
+      automatically map the disk image to an IDE controller if it does
+      not support SCSI.  In that case, the disk image does still 
+      work correctly.</p>
+
+      <h3>Additional Configuration</h3>
+
+      <p>By default, the image will configure itself via DHCP.  It is 
+      recommended that you configure your DHCP server with a specific, 
+      known IP address for the MAC address you have configured to the 
+      system.  Alternatively, you may configure it for a static IP by
+      <a 
+      href="http://docs.sun.com/app/docs/doc/819-2240/nwamd-1m?a=view">following
+      these directions</a> to configure a specific IP address.  Note 
+      the default interface for this image is "e1000g0".</p>
+
+      <p>If you need additional help, please 
+      <a href="mailto:feedback@northscale.com">contact us</a> with any
+      questions.</a>
+
+      <p>
+       <a href="mailto:feeedback@northscale.com">feedback@northscale.com</a>
+      </p>
+
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-7763794-3");
+        pageTracker._trackPageview();
+      } catch(err) {}</script>
+
+  </body>
+</html>

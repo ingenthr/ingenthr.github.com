@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>memcached 1.4.1 community Virtual Appliance - NorthScale Labs</title>
+    <link id="master_css" rel="stylesheet" type="text/css" href="/css/default.css"/>
+    <style type="text/css">
+      .ami_table td {
+        font-size: 10pt;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <div id="header">
+      <a href="http://labs.northscale.com">
+        <img src="/images/ns_logo_labs.png" alt="NorthScale Labs" style="margin-top:10px;"/>
+      </a>
+    </div>
+
+    <div id="container">
+
+      <h1>memcached Virtual Appliance</h1>
+
+      <p>NorthScale has produced a memcached Virtual Appliance Image
+      for use on virtualization platforms like VMWare server or any 
+      compatible system supporting the OVF format.  It will automatically
+      start a memcached server listening on the standard port and
+      use most of the system's memory for memcached.</p>
+
+      <p>Addtionally, there are some tools which allow developers and 
+      system administrators to observe memcached operations.  You can
+      access the tools by pointing your browser to the built in web 
+      server.  For more details, see the <a href="help.html">online
+      help</a>.</p>
+
+      <p>There is no cost associated with this virtual appliance.
+      We would appreciate your
+      <a href="mailto:feedback@northscale.com">feedback</a> on
+      the utility you receive from this appliance.  We have intentionally
+      kept it simple, but if there is something you would like or need
+      to be able to use these, please
+      <a href="mailto:feedback@northscale.com">let us know</a>.</p>
+
+      <p>To create this, we downloaded the latest stable release of
+      memcached from <a href="http://memcached.org">memcached.org</a>,
+      built and tested memcached, and then integrated its startup into
+      the image.  When the appliance boots, it will automatically use nearly all
+      of its memory for memcached.  </p>
+
+      <p>In most cases, there is no reason to log into the image.  Just
+      launch it and point your client to port 11211 (either TCP or UDP).
+      If you want to see the extra tools, make sure there are no firewalls
+      preventing you from accessing port 80, then point your browser at the 
+      hostname or IP address for the machine.
+      Do be cautious about security settings for the
+      memcached port, as memcached does not
+      have an authentication mechanism.</p>
+
+      <p>
+       <a href="mailto:feeedback@northscale.com">feedback@northscale.com</a>
+      </p>
+
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-7763794-3");
+        pageTracker._trackPageview();
+      } catch(err) {}</script>
+
+  </body>
+</html>
