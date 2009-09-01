@@ -31,42 +31,57 @@
       <table class="ami_table">
        <tr>
         <th>AMI ID</th>
+        <th>Instance size</th>
+        <th>Memcached version</th>
+        <th>With</th>
         <th>Manifest</th>
-        <th>Description</th>
-       </tr>
+        </tr>
        <tr>
         <td>US-East:&nbsp;ami-bf4cadd6<br/>EU-West:&nbsp;ami-6e98b01a</td>
+        <td>m1.small and m1.medium</td>
+        <td>1.4.0 community release on i386</td>
+        <td>extra tools</td>
         <td>northscale/community-memcached-1.4.0-with-tools-i386.manifest.xml</td>
-        <td>memcached 1.4.0 community release with extra tools on i386 for 
-            m1.small and m1.medium instances</td>
+        
        </tr>
        <tr>
         <td>US-East:&nbsp;ami-bd4cadd4<br/>EU-West:&nbsp;ami-6098b014</td>
+        <td>m1.large, m1.xlarge and c1.xlarge</td>
+        <td>1.4.0 community release on x86_64</td>
+        <td>extra tools</td>
         <td>northscale/community-memcached-1.4.0-with-tools-x86_64.manifest.xml</td>
-        <td>memcached 1.4.0 community release with extra tools on x86_64 for m1.large,
-            m1.xlarge and c1.xlarge instances</td>
-       </tr>
+        </tr>
        <tr>
         <td>US-East:&nbsp;ami-39c52450<br/>EU-West:&nbsp;ami-818ba3f5</td>
+        <td>m1.small and m1.medium</td>
+        <td>1.4.0 community release on i386</td>
+        <td>none</td>
         <td>northscale/community-memcached-1.4.0-i386.manifest.xml</td>
-        <td>memcached 1.4.0 community release on i386 for m1.small
-            and m1.medium instances</td>
+        
        </tr>
        <tr>
         <td>US-East:&nbsp;ami-1fc52476<br/>EU-West:&nbsp;ami-838ba3f7</td>
+        <td>m1.large, m1.xlarge and c1.xlarge</td>
+        <td>1.4.0 community release on x86_64</td>
+        <td>none</td>
         <td>northscale/community-memcached-1.4.0-x86_64.manifest.xml</td>
-        <td>memcached 1.4.0 community release on x86_64 for m1.large,
-            m1.xlarge and c1.xlarge instances</td>
+        
        </tr>
       </table>
 
-      <p>There is no additional cost over that of running your own
+      <table width="100%" border="0">
+  <tr>
+    <td><p>There is no additional cost over that of running your own
       AMI.  We would appreciate your
       <a href="mailto:feedback@northscale.com">feedback</a> on
       the utility you receive from these AMIs.  We have intentionally
       kept it simple, but if there is something you would like or need
       to be able to use these, please
-      <a href="mailto:feedback@northscale.com">let us know</a>.</p>
+      <a href="mailto:feedback@northscale.com">let us know</a>.</p></td>
+    <td><img src="/images/AWS console launch screen.jpg" alt="" /></td>
+  </tr>
+</table>
+
 
       <p>To create these, we downloaded the latest stable release of
       memcached from <a href="http://memcached.org">memcached.org</a>,
